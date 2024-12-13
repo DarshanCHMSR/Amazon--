@@ -19,7 +19,16 @@
     width:30rem;
     display:inline;
   }
-
+.box-content{
+  font-weight: 800;
+  color: black;
+  
+}
+.box-content p  {
+  color: black;
+  font-style: italic;
+  
+}
   .nav-logo{
     /* height:3.0625rem; */
     width:6.25rem;
