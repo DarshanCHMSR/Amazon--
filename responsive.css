@@ -1,0 +1,133 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+   .foot-panel4 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .shop-section{
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width:30rem;
+  }
+  .nav-search {
+    width: 90%;
+  }
+  .navbar{
+    flex-direction: column;
+    height: 11rem;
+    width:30rem;
+    display:inline;
+  }
+
+  .nav-logo{
+    /* height:3.0625rem; */
+    width:6.25rem;
+    /* padding-left: 0.3125rem; */
+}
+  .box {
+    width: 26.5rem;
+    height: auto;
+   
+  }
+  .panel{
+margin-top: 10rem;
+    height: 10rem;
+    width:30rem;
+    /* flex-direction: row; */
+    
+  }
+  .carousel{
+    width:30rem;
+    height: auto;
+  }
+  .nav-cart{
+    margin: 1rem;
+  }
+  .panel-ops{
+    margin:1rem;
+    /* width:0; */
+    display:inline;
+  }
+  .panel-ops p{
+    /* display:flex; */
+    flex-direction: row; 
+    width: 0%;
+    /* margin-top: 0.9rem;
+    margin-left: 0.625rem; */
+    font-size: medium;
+}
+  .nav-search{
+    width:20rem;
+    height: 1.5rem;
+  }
+/* .box-ima{
+  margin: 2rem;
+} */
+  .foot-panel2 ul {
+    margin-top: 10px;
+  }
+  .foot-panel2{
+    height: 50rem;
+    width:30rem;
+  }
+
+  .foot-panel2 ul p {
+    font-size: 1rem;
+  }
+
+  .foot-panel2 ul a {
+    font-size: 0.8rem;
+  }
+  .foot-panel1{
+    width:30rem;
+  }
+  .foot-panel3{
+    width:30rem;
+  }
+  .foot-panel4{
+    width:30rem;
+    height: 34.9rem;
+  }
+  .foot-panel5{
+    width:30rem;
+    
+  }
+  
+  
+}
+
+/* Medium devices (tablets, 768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .shop-section {
+    justify-content: space-around;
+  }
+
+  .box {
+    width: 45%;
+  }
+
+  .nav-search {
+    width: 80%;
+  }
+
+  .foot-panel2 ul a {
+    font-size: 0.85rem;
+  }
+  
+}
+
+/* Large devices (desktops, greater than 1024px) */
+@media (min-width: 1024px) {
+  .navbar, .panel, .shop-section, .foot-panel2 {
+    flex-direction: row;
+  }
+
+  .box {
+    width: 23%;
+  }
+
+  .nav-search {
+    width: 620px;
+  }
+}
